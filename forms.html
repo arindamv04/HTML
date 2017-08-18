@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form demo</title>
+</head>
+<body>
+
+<h1>Login</h1>
+
+<!-- form has two aspects to it or attributes -->
+<!-- action - where the form sends data too -->
+<!-- method - what http request to use that is get or post -->
+
+<form>
+<!-- this is one way of creating lables. to nest the input into the lable -->
+	<label>
+		Email:
+		<input type="email" placeholder="email" required>
+	</label>
+	
+	<!-- this is another way where we make a lable and give it the for value. -->
+	<!-- later we enter the same value as the id for the input -->
+	<label for="pass1">Password</label>
+	<input id="pass1" type="password" placeholder="password">
+	<!-- <button>submit</button> this can be used to make a button too-->
+	<input type="submit">
+</form>
+	
+
+</body>
+</html>
