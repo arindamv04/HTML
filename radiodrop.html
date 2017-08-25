@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>radio and droppdown</title>
+</head>
+<body>
+<h1>do you like dogs or cats?</h1>
+<form>
+	<label for="dogs"> Dogs: </label>
+	<input id="dogs" type="radio" name="petchoice" value="Dogs">
+<!-- this is how we make radio buttons -->
+<!-- by giving the buttons the same name, we are telling html that this is the same choice -->
+	<label for="cats">cats: </label>
+	<input id="cats" type="radio" name="petchoice" value="Cats">
+<!-- we have a value attribute because when the button submits the form, the value of petchoice will be set to on. that is what is returned by default, saying something has been selected. -->
+
+<!-- lets make a select tag or dropdown menue. this will have some options to select. each option will return a value specified by us. and it would assign this val to the name given to the select tag -->
+<p>how are you feeling?</p>
+
+<select name="emotion">
+	<option value="happy">:)</option>
+	<option value="nothing">:|</option>
+	<option value="sad">:(</option>
+</select>
+
+<!-- text area is for inpution more that just a word like the way we did in the previous form -->
+
+<textarea name="para" rows="10" cols="30"></textarea>
+<!-- when a button is at the end of the form, it would submit the form. we dont have to use the input type submit -->
+	<button>Go! </button>
+</form>
+</body>
+</html>
